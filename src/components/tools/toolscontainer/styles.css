@@ -1,0 +1,12 @@
+.container-carrousel {
+    margin: 3em auto;
+    width: 1300px;
+    display: block;
+}
+@media (max-width: 1300px) {
+    .container-carrousel {
+        margin: 3em auto;
+        width: 95%;
+        display: block;
+    }
+}

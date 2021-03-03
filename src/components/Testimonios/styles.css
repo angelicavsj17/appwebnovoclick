@@ -1,0 +1,35 @@
+.container-testimonios {
+    display: flex;
+    /* height: 630px; */
+    max-width: 1300px;
+    margin: auto;
+}
+
+.containertest1 {
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3);
+    min-height: 500px;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.containertest1 h1 {
+    font-weight: bolder;
+}
+
+.containertest1 p {
+    justify-content: center;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.containertest1 img {
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 140px; */
+    margin: auto;
+    display: flex;
+}

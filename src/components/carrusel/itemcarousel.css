@@ -1,0 +1,16 @@
+ 
+ 
+ .box-itemcarousel1{
+     display: grid;
+     grid-template-columns: repeat(6, 300px);
+ }
+ 
+ .boxsItem-part4{
+    height: 300px;
+    width: 250px;
+    border: solid red;
+ }
+
+
+
+

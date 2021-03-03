@@ -1,0 +1,52 @@
+.dish-item-selection {
+    border-radius: 0.5em;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+    display: block;
+    width: 95%;
+    padding: 1em;
+    margin-right: 0.5em;
+}
+.dish-item-selection > h2 {
+    color: rgb(47, 101, 182);
+}
+.item-select-item {
+    margin: 0.5em 0;
+}
+.dish-item-selection > button {
+    background-color: rgb(66, 208, 255);
+    padding: 0.5em 1em;
+    border: 0;
+    color: white;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+.dish-item-selection > button:focus-visible {
+    outline: none !important;
+}
+.dish-item-selection > textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 8px;
+    border-radius: 0.5em;
+    margin: 8px 0;
+    resize: none;
+    height: 150px;
+}
+.btn-added {
+    outline: none;
+    background-color: rgb(17, 172, 25) !important;
+}
+.description-title {
+    font-size: 1.2em;
+}
+@media (max-width: 700px) {
+    .dish-item-selection {
+        margin: auto;
+    }
+}
